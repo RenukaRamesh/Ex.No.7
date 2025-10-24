@@ -32,13 +32,13 @@ o Notify user of overlapping appointments or free time slots.
 o Suggest daily wellness advice (hydration, exercise, screen-time breaks).
 o Adapt suggestions based on past user preferences and responses.
 
-1. Introduction
+# 1. Introduction
 
 Large Language Models (LLMs) like ChatGPT are capable of understanding natural language and generating human-like responses, making them ideal for creating personalized productivity applications.
 
 A prompt-based approach allows developers or users to leverage AI without deep coding, relying instead on carefully constructed instructions (prompts) to guide the model’s outputs.
 
-Key Advantages:
+# Key Advantages:
 
 Adaptability: Can handle diverse tasks without extensive retraining.
 
@@ -46,14 +46,14 @@ Creativity: Generates solutions or suggestions that might not be obvious.
 
 Efficiency: Automates repetitive task management processes.
 
-2. Core Requirements of the Assistant
+# 2. Core Requirements of the Assistant
 Feature	Description	Benefit
 Daily Task Manager	Accept tasks, organize by priority/deadline, summarize	Reduces manual tracking, ensures timely completion
 Smart Scheduler	Schedule events, detect conflicts, suggest free slots	Efficient time management, prevents overlaps
 Wellness Tips Generator	Suggest hydration, exercise, screen breaks, sleep reminders	Supports mental and physical well-being
 General Query Handler	Answer daily questions about tasks or schedules	Acts as an all-in-one assistant
 Adaptive Memory (Optional)	Track user preferences for personalized advice	Improves over time, offers tailored suggestions
-3. Prompt Design Strategy
+# 3. Prompt Design Strategy
 
 Prompt design is the heart of a prompt-based application. The same assistant can behave very differently depending on how prompts are written. Here’s a progression:
 
@@ -109,7 +109,7 @@ Output: Table with detailed schedule and suggestions.
 
 Benefit: Useful for tasks that need structure, visualization, or multi-step reasoning.
 
-4. Practical Simulation
+# 4. Practical Simulation
 
 Step 1: Task Input
 
@@ -140,7 +140,7 @@ Step 4: Wellness Suggestions
 
 AI suggests: “Take a 5-minute stretch break every hour of study” or “Drink water after exercise.”
 
-5. Learning Outcomes
+# 5. Learning Outcomes
 
 From this exercise, users learn:
 
@@ -154,7 +154,7 @@ Problem-Solving: Simulating complex scenarios (e.g., task prioritization, time c
 
 Understanding AI Limitations: Recognizing when AI might misinterpret vague instructions and how to refine prompts.
 
-6. Potential Enhancements
+# 6. Potential Enhancements
 
 Memory Integration: Keep track of recurring tasks and preferences.
 
@@ -166,7 +166,7 @@ Analytics: Generate weekly reports on task completion or productivity trends.
 
 Gamification: Encourage user engagement through points or streaks for completed tasks.
 
-7. Conclusion
+# 7. Conclusion
 
 The lab exercise demonstrates that prompt-based applications can transform LLMs into practical personal assistants. By progressively refining prompts—from simple instructions to few-shot, chain-of-thought, and persona prompts—users can build AI tools that are creative, adaptive, and highly useful in daily life.
 
